@@ -31,6 +31,13 @@ a {
     color: #FFE600;
 }
 
+.button {
+    display: inline-block;
+    background: #FFE600;
+    color: black;
+    padding: 20px;
+}
+
 a:focus, a:hover {
     color: aquamarine;
 }
