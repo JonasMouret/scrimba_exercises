@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    background-color: #2e354f;
+    text-align: left;
+    color: white;
+    padding: 25px;   
+}
+
+h1 {
+    text-align: left;
+    color: white;
+    width: 620px;
+    font-weight: 900;
+}
+
+h2 {
+    font-weight: 900;
+    text-align: left;
+    width: 620px;
+    color: #ef5839;
+}
+
+p {
+    text-align: left;
+    width: 620px;   
+}
+
+.centerPage {
+    padding: 25px;
+}
+
+.footerPage {
+    padding: 25px;
+    background-color: #2e354f;
+    color: aliceblue;
+}
+
+a {
+    color: #ef5839;
+}
+
+a:hover {
+    color: aqua;
+}
+
+.myButton {
+    margin-top: 35px;
+}
+
+.btn_contact, 
+.btn_moreInfo {
+    font-weight: 900;
+    text-decoration: none;
+    padding: 12px 35px;
+}
+
+.btn_contact {
+    background-color: #ef5839;
+    color: white;
+}
+
+.btn_moreInfo {
+    background-color: #FFF;
+    color: black;
+    margin-left: 25px;
+}
+
+.btn_contact:hover {
+    color: black;
+    background-color: whitesmoke;
+}
+
+.btn_moreInfo:hover {
+    color: whitesmoke;
+    background-color: rgb(150, 146, 146);
+}
