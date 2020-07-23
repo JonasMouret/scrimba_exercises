@@ -14,20 +14,29 @@ header {
 h1 {
     text-align: left;
     color: white;
-    width: 620px;
     font-weight: 900;
 }
 
 h2 {
     font-weight: 900;
     text-align: left;
-    width: 620px;
     color: #ef5839;
 }
 
 p {
-    text-align: left;
-    width: 620px;   
+    text-align: left;   
+}
+
+h1, h2, p {
+   width: 620px;
+   margin: 25px auto;
+   /*margin-left: 25px;*/ 
+}
+
+.myImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .centerPage {
@@ -48,6 +57,10 @@ a:hover {
     color: aqua;
 }
 
+a:focus {
+    color: cadetblue;
+}
+
 .myButton {
     margin-top: 35px;
 }
@@ -64,18 +77,30 @@ a:hover {
     color: white;
 }
 
+.btn_contact:hover {
+    color: black;
+    background-color: whitesmoke;
+}
+
+.btn_contact:focus {
+    color: white;
+    background-color: black;
+}
+
 .btn_moreInfo {
     background-color: #FFF;
     color: black;
     margin-left: 25px;
 }
 
-.btn_contact:hover {
-    color: black;
-    background-color: whitesmoke;
-}
-
 .btn_moreInfo:hover {
     color: whitesmoke;
     background-color: rgb(150, 146, 146);
 }
+
+.btn_moreInfo:focus {
+    color: white;
+    background-color: black;
+}
+
+
