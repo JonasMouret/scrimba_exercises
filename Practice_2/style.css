@@ -1,0 +1,53 @@
+body {
+    margin: 100px auto;
+    font-family: Lato;
+    text-align: center;
+}
+
+.container-title-section {
+    margin: 0px auto;
+    background-color: #2e354f;
+    width: 250px;
+    padding: 8px 250px;
+}
+.title-text {
+    text-align: center;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+.container-about-section,
+.container-contact-section {
+    margin: 50px auto;
+    width: 800px;
+}
+
+.section-title {
+    text-transform: uppercase;
+}
+
+.text {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+a {
+    color: #ef5839;
+}
+a:hover {
+    color: #2e354f;
+}
+
+.btn {
+    background-color: #ef5839;
+    color: aliceblue;
+    padding: 15px 40px;
+    text-decoration: none;
+    font-size: large;
+}
+.btn:hover{
+    background-color: #d4b44c;
+}
+
+/*Hovered button background color: #d4b44c/
+/*Hovered button text color: #2e354f*/
