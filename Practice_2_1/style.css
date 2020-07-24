@@ -1,0 +1,65 @@
+/* DON'T TOUCH THIS! */
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	padding: 0;
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
+	height: 100vh;
+	width: 100vw;
+}
+
+.square {
+	padding: 30px;
+	border: 1px solid black;
+	background: #FFE600;
+}
+
+.square-1 {
+	grid-row: 1 / span 1;
+	grid-column: 1 / span 1;
+}
+
+.square-2 {
+	grid-row: 1 / span 1;
+	grid-column: 2 / span 1;
+}
+
+.square-3 {
+	grid-row: 2 / span 1;
+	grid-column: 1 / span 1;
+}
+
+.square-4 {
+	grid-row: 2 / span 1;
+	grid-column: 2 / span 1;
+}
+
+/* DON'T TOUCH THIS! */
+
+/* ==========================
+	Write your solution here!
+   ========================== */
+
+.square-1 {
+    color: #beffb0;
+    background-color: #c74e48;
+}
+
+.square-2 {
+    background-color: #6cb344;
+    color: #ffd9d1;
+}
+
+/*
+**Other Information**:
+ - Red square background: #c74e48
+ - Red square text color: #beffb0
+ - Green square background: #6cb344
+ - Green square text color: #ffd9d1
+ - Blue square background: #b8eaff
+ - Blue square text color: #472a00
+ - Purple square background: #af63db
+ - Purple square text color: #fffbc2
+*/
