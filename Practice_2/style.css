@@ -1,53 +1,49 @@
 body {
-    margin: 100px auto;
-    font-family: Lato;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
     text-align: center;
 }
 
-.container-title-section {
-    margin: 0px auto;
-    background-color: #2e354f;
-    width: 250px;
-    padding: 8px 250px;
-}
 .title-text {
-    text-align: center;
-    color: aliceblue;
+    font-size: 36px;
+    color: white;
+    background: #2e354f;
     text-transform: uppercase;
+    padding: 20px;
+    width: 500px;
+    margin: 0 auto;
 }
 
-.container-about-section,
-.container-contact-section {
+.text {
+    width: 650px;
+    margin: 0 auto;
+}
+
+.container {
     margin: 50px auto;
-    width: 800px;
+    width: 650px;
 }
 
 .section-title {
     text-transform: uppercase;
 }
 
-.text {
-    font-size: 20px;
-    margin-bottom: 50px;
-}
-
-a {
+.underlined {
     color: #ef5839;
-}
-a:hover {
-    color: #2e354f;
+    text-decoration: underline;
 }
 
 .btn {
-    background-color: #ef5839;
-    color: aliceblue;
-    padding: 15px 40px;
     text-decoration: none;
-    font-size: large;
-}
-.btn:hover{
-    background-color: #d4b44c;
+    background: #ef5839;
+    padding: 10px;
+    color: white;
+    font-weight: 900;
+    margin: 20px;
+    display: inline-block;
 }
 
-/*Hovered button background color: #d4b44c/
-/*Hovered button text color: #2e354f*/
+.btn:hover, .btn:focus {
+    background: #d4b44c;
+    color: #2e354f;
+}

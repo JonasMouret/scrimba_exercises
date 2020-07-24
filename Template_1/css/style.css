@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    font-size: 18px;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+    color: #adc2db;
+}
+
+.container {
+    width: 620px;
+    margin: 0 auto;
+}
+
+section {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.section_one {
+}
+
+.section_two {
+    background-color: #394665;
+    padding: 1em 1em;
+}
