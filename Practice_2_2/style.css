@@ -13,16 +13,20 @@ body {
      Write your solution here!
     ========================== */
 
+body {
+    font-family: 'Lato', sans-serif;
+}
+
 .btn {
     background-color: #ef5839;
     color: aliceblue;
-    font-size: 20px;
-    padding: 10px 35px;
+    font-weight: 900;
+    padding: 20px;
     text-decoration: none;
+    display: block;
 }
 
-.btn:hover {
+.btn:hover, .btn:focus {
     background-color: #d4b44c;
     color: #2e354f;
-    padding: 15px 40px;
-}
+    font-size: 30px;
