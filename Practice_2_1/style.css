@@ -42,14 +42,40 @@ body {
 	Write your solution here!
    ========================== */
 
+p {
+	width: 600px;
+}
+
 .square-1 {
-    color: #beffb0;
-    background-color: #c74e48;
+	background: #c74e48;	
+}
+
+.square-1 * {
+	color: #beffb0;
 }
 
 .square-2 {
-    background-color: #6cb344;
-    color: #ffd9d1;
+	background: #6cb344;
+}
+
+.square-2 * {
+	color:#ffd9d1;
+}
+
+.square-3 {
+	background: #b8eaff;
+}
+
+.square-3 * {
+	color: #472a00;
+}
+
+.square-4 {
+	background: #af63db;
+}
+
+.square-4 * {
+	color: #fffbc2;
 }
 
 /*
