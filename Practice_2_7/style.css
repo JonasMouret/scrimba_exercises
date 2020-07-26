@@ -41,25 +41,15 @@ img {
 /* ==========================
 	Write your solution here!
    ========================== */
-
-.newTitle {
-	grid-area: title;
-	margin: 5px;
-	color: #ffe8c4;
-	text-transform: uppercase;
+   
+.post-orange {
+	background: #ffe8c4;
 }
 
-.newPost {
-	width: 700px;
-	display: grid;
-	grid-template-columns: 1fr 4fr;
-	grid-template-rows: 1fr 1fr;
-	grid-template-areas:
-	"image title"
-	"image desc";
-	grid-gap: 10px;
-	background: #ef5839;
-	border: 20px solid #969696;
-	padding: 20px;
-	margin: 15px 0px;
+.title-orange {
+	color: #ef5839;
+}
+
+.post {
+	margin: 10px;
 }
