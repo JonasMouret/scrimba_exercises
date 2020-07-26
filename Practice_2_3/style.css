@@ -45,13 +45,15 @@ h1 {
 	Write your solution here!
    ========================== */
 
-.title-text {
-    padding: 10px;
-    text-align: center;
+body {
+	text-align: center;
+}
+
+h1 {
+	padding: 20px;
 }
 
 .container {
-    text-align: center;
     width: 450px;
     margin: 120px auto;
 }
@@ -62,5 +64,6 @@ h1 {
 }
 
 .btn {
-    padding: 10px 25px;
+	padding: 10px 25px;
+	margin: 30px;
 }
